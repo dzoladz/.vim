@@ -1,3 +1,6 @@
 [submodule "bundle/dockerfile.vim"]
 	path = bundle/dockerfile.vim
 	url = https://github.com/ekalinin/dockerfile.vim
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git

@@ -53,17 +53,17 @@ autocmd vimenter * NERDTree
 
 
 """ SET DEFAULTS """
-set expandtab		" expand tabs into spaces
-set autoindent		" indent when moving to the next line while writing code
-set fileformat=unix				" convert file to unix file convention
-set hlsearch		" highlight searches
-set nu							" show line numbers
-set showmatch		" show the matching part of the pair for [] {} and ()
-set list		" display whitespace
-set incsearch		" incremental search
+set expandtab                   " expand tabs into spaces
+set autoindent                  " indent when moving to the next line
+set fileformat=unix             " convert file to unix file convention
+set hlsearch                    " highlight searches
+set nu                          " show line numbers
+set showmatch                   " show the matching part of the pair for [] {} and ()
+set list                        " display whitespace
+set incsearch                   " incremental search
 set smarttab
-set wildmenu		" command completion
-set paste						" Paste from a windows or from vim (shift + p preserve indent)
-set ignorecase					" case insensitive search
-set laststatus=2				" enable status bar
-set backspace=indent,eol,start " fix backspace doesn't work during insert (https://goo.gl/fizWK6)l
+set wildmenu                    " command completion
+set paste                       " Paste from a windows or from vim
+set ignorecase                  " case insensitive search
+set laststatus=2                " enable status bar
+set backspace=indent,eol,start  " fix backspace doesn't work

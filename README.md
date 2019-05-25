@@ -1,7 +1,9 @@
 <p>
 <img src="https://media.giphy.com/media/xT9IgzUuC5Ss6ZnTEs/giphy-downsized-large.gif" width="250" align="left"></img>
-<h1>.vim</h1>
+<h1>.vim - The One You Need</h1>
 </p>
+<br>
+<br>
 <br>
 <br>
 <br>

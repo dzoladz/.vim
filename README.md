@@ -4,6 +4,7 @@
 </p>
 <br>
 <br>
+<br>
 
 1. To install, be sure to clone all submodules into your `~/.vim` directory
 

@@ -14,7 +14,10 @@
 git clone --recurse-submodules https://github.com/dzoladz/.vim.git
 ```
 
-### Resources
+## RESOURCES
 
-Tim Pope's pathogen.vim
-[pathogen.vim](https://github.com/tpope/vim-pathogen)
+Plugin management provided by:
+- Tim Pope's [pathogen.vim](https://github.com/tpope/vim-pathogen)
+
+Search for additional plugins
+- [Vim Awesome](https://vimawesome.com/)

@@ -13,3 +13,8 @@
 ```bash
 git clone --recurse-submodules https://github.com/dzoladz/.vim.git
 ```
+
+### Resources
+
+Tim Pope's pathogen.vim
+[pathogen.vim](https://github.com/tpope/vim-pathogen)

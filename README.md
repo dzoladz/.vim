@@ -1,7 +1,7 @@
 .vim
 =====
 
-<img style="float: right;" src="https://media.giphy.com/media/xT9IgzUuC5Ss6ZnTEs/source.gif" width="100" height="100" />
+<iframe src="https://giphy.com/embed/xT9IgzUuC5Ss6ZnTEs" width="480" height="323" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 1. To install, be sure to clone all submodules into your `~/.vim` directory
 

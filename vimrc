@@ -1,6 +1,6 @@
 "***********************
 "**  Derek C. Zoladz  **
-"**  Version: 1.0     **
+"**  Version: 2.0     **
 "***********************
 
 
@@ -42,14 +42,30 @@ if &listchars ==# 'eol:$'
 endif
 
 
-""" USE COLORSCHEME - Solarized, Dark Mode """
-let g:solarized_termcolors=256
-set background=dark
-colorscheme solarized
+""" USE COLORSCHEME  """
+"" Solarized, Dark Mode
+"let g:solarized_termcolors=256
+"set background=dark
+"colorscheme solarized
+"" JellyBeans
+colorscheme jellybeans
 
 
 """ START NERDTREE ON LAUNCH """
 autocmd vimenter * NERDTree
+
+
+""" DEFINE LIGHTLINE CONFIGURATION """
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ 'active': {
+      \   'left': [ [ 'mode' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
 
 
 """ SET DEFAULTS """
@@ -67,3 +83,4 @@ set paste                       " Paste from a windows or from vim
 set ignorecase                  " case insensitive search
 set laststatus=2                " enable status bar
 set backspace=indent,eol,start  " fix backspace doesn't work
+set noshowmode                  " remove redundant mode status, use lightline

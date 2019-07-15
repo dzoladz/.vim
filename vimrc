@@ -43,16 +43,12 @@ endif
 
 
 """ USE COLORSCHEME  """
-"" Solarized, Dark Mode
-"let g:solarized_termcolors=256
-"set background=dark
-"colorscheme solarized
-"" JellyBeans
 colorscheme jellybeans
 
 
 """ START NERDTREE ON LAUNCH """
 autocmd vimenter * NERDTree
+let NERDTreeShowHidden=1 " Show Hidden Files
 
 
 """ DEFINE LIGHTLINE CONFIGURATION """

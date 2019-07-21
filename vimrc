@@ -52,6 +52,7 @@ colorscheme jellybeans
 
 """ START NERDTREE ON LAUNCH """
 autocmd vimenter * NERDTree
+let NERDTreeShowHidden=1 " Show Hidden Files
 
 
 """ DEFINE LIGHTLINE CONFIGURATION """

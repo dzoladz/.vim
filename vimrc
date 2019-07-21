@@ -41,13 +41,12 @@ if &listchars ==# 'eol:$'
   set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 endif
 
+""" UNDO  """
+nnoremap <F5> :UndotreeToggle<cr>
+set undofile
+set undodir=~/.vim/undo " persist undo across vim sessions
 
 """ USE COLORSCHEME  """
-"" Solarized, Dark Mode
-"let g:solarized_termcolors=256
-"set background=dark
-"colorscheme solarized
-"" JellyBeans
 colorscheme jellybeans
 
 

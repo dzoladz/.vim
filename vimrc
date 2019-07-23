@@ -1,6 +1,6 @@
 "***********************
 "**  Derek C. Zoladz  **
-"**  Version: 2.0     **
+"**  Version: 2.2     **
 "***********************
 
 
@@ -26,7 +26,9 @@ endif
 """ PYTHON SUPPORT """
 let python_highlight_all = 1 " syntax highlighting
 set textwidth=80 " 80 character lines
-
+let g:jedi#force_py_version = 3
+let g:jedi#auto_initialization = 1
+let g:jedi#completions_enabled = 1
 
 """ CLIPBOARD SET (linux install vim-gtk)"""
 if system('uname -s') == "Darwin\n"
@@ -41,10 +43,12 @@ if &listchars ==# 'eol:$'
   set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 endif
 
-""" UNDO  """
+
+""" UNDOTREE CONFIG  """
 nnoremap <F5> :UndotreeToggle<cr>
 set undofile
 set undodir=~/.vim/undo " persist undo across vim sessions
+
 
 """ USE COLORSCHEME  """
 colorscheme jellybeans
@@ -79,7 +83,7 @@ set list                        " display whitespace
 set incsearch                   " incremental search
 set smarttab
 set wildmenu                    " command completion
-set paste                       " Paste from a windows or from vim
+"set paste                       " Paste from a windows or from vim
 set ignorecase                  " case insensitive search
 set laststatus=2                " enable status bar
 set backspace=indent,eol,start  " fix backspace doesn't work

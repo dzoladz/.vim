@@ -50,6 +50,9 @@ set undofile
 set undodir=~/.vim/undo " persist undo across vim sessions
 
 
+""" CTAGS """
+
+
 """ USE COLORSCHEME  """
 colorscheme jellybeans
 

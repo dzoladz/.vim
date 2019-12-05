@@ -28,3 +28,9 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "bundle/bundle/vim-illuminate"]
+	path = bundle/bundle/vim-illuminate
+	url = https://github.com/RRethy/vim-illuminate.git
+[submodule "bundle/vim-illuminate"]
+	path = bundle/vim-illuminate
+	url = https://github.com/RRethy/vim-illuminate.git

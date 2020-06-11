@@ -1,6 +1,6 @@
 "***********************
 "**  Derek C. Zoladz  **
-"**  Version: 2.2     **
+"**  Version: 2.3     **
 "***********************
 
 
@@ -24,11 +24,10 @@ endif
 
 
 """ PYTHON SUPPORT """
-let python_highlight_all = 1 " syntax highlighting
-set textwidth=80 " 80 character lines
-let g:jedi#force_py_version = 3
-let g:jedi#auto_initialization = 1
-let g:jedi#completions_enabled = 1
+if &ft == 'python'
+  set textwidth=80 " 80 character lines
+endif
+
 
 """ CLIPBOARD SET (linux install vim-gtk)"""
 if system('uname -s') == "Darwin\n"
@@ -48,9 +47,6 @@ endif
 nnoremap <F5> :UndotreeToggle<cr>
 set undofile
 set undodir=~/.vim/undo " persist undo across vim sessions
-
-
-""" CTAGS """
 
 
 """ USE COLORSCHEME  """
@@ -73,6 +69,12 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head'
       \ },
       \ }
+
+
+""" VIM ILLUMINATE CONFIGURATION """
+let g:Illuminate_highlightUnderCursor = 1
+let g:Illuminate_delay = 300
+let g:Illuminate_ftblacklist = ['nerdtree']
 
 
 """ SET DEFAULTS """

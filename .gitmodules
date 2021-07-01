@@ -34,3 +34,6 @@
 [submodule "bundle/vim-illuminate"]
 	path = bundle/vim-illuminate
 	url = https://github.com/RRethy/vim-illuminate.git
+[submodule "bundle/vim-skylight"]
+	path = bundle/vim-skylight
+	url = https://github.com/voldikss/vim-skylight.git

@@ -76,6 +76,10 @@ let g:Illuminate_highlightUnderCursor = 1
 let g:Illuminate_delay = 300
 let g:Illuminate_ftblacklist = ['nerdtree']
 
+""" VIM EZPROXY ""
+au BufRead,BufNewFile config.txt set ft=ezproxy_config
+au BufRead,BufNewFile user.txt set ft=ezproxy_user
+au BufRead,BufNewFile shibuser.txt set ft=ezproxy_shibuser
 
 """ SET DEFAULTS """
 set expandtab                   " expand tabs into spaces

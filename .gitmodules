@@ -39,4 +39,4 @@
 	url = https://github.com/voldikss/vim-skylight.git
 [submodule "bundle/vim-ezproxy"]
 	path = bundle/vim-ezproxy
-	url = git@github.com:dzoladz/vim-ezproxy.git
+	url = https://github.com/dzoladz/vim-ezproxy.git
